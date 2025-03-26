@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY_WEBPAGE</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+        p {
+            margin: 20px;
+            padding: 10px;
+        }
+
+        .paragraph1 {
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .paragraph2 {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.8;
+            text-align: center;
+        }
+
+        img {
+            width: 300px;
+            height: 150px;
+            margin-top: 20px;
+        }
+
+        figcaption {
+            font-style: italic;
+            margin-top: 10px;
+        }
+
+        .styled-button {
+            padding: 10px 20px;
+            border: 2px solid #4CAF50;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .styled-button:hover {
+            background-color: white;
+            color: #4CAF50;
+            border-color: #4CAF50;
+        }
+
+        table {
+            width: 60%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        input[type="text"], input[type="email"] {
+            padding: 8px;
+            margin: 5px;
+            width: 200px;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            border: 2px solid #4CAF50;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: white;
+            color: #4CAF50;
+            border-color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to my Week-3 Assignment Page</h1>
+    
+    <p class="paragraph1">
+        This is the first paragraph of the page. It has a different font family, line height, and text alignment. You can use this paragraph to describe the contents of the page or add any relevant information.
+    </p>
+    
+    <p class="paragraph2">
+        Here is the second paragraph. It's centered on the page, with a different font family and line height. It's a great place for additional details.
+    </p>
+
+    <figure>
+        <img src="./Sample Images/sample.jpg" alt="Sample Image">
+        <figcaption>This is a caption for the image above</figcaption>
+    </figure>
+
+    <button class="styled-button">Click Me</button>
+
+    <table>
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+        </tr>
+        <tr>
+            <td>Row 1, Cell 1</td>
+            <td>Row 1, Cell 2</td>
+            <td>Row 1, Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 2, Cell 1</td>
+            <td>Row 2, Cell 2</td>
+            <td>Row 2, Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 2, Cell 1</td>
+            <td>Row 2, Cell 2</td>
+            <td>Row 2, Cell 3</td>
+        </tr>
+    </table>
+
+    <form action="#" method="POST">
+        <input type="text" name="name" placeholder="Enter your name" required><br><br>
+        <input type="email" name="email" placeholder="Enter your email" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
